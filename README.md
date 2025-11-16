@@ -6,6 +6,8 @@ SerpApi的Google Shopping Light API可以让你极高速度抓取Google Shopping
 
 你可以通过发送 GET 请求查询：https://serpapi.com/search?engine=google_shopping&q=coffee 或者您可以前往[Playground](https://serpapi.com/playground?engine=google_shopping)体验实时、可交互的官方演示。
 
+同时你可以参考官方文档[Serpapi Google Shopping Light Api](https://serpapi.com/google-shopping-light-api)，或者访问官网[SerpApi](https://serpapi.com/)
+
 ## API 调用参数
 
 1. **查询关键字**
@@ -48,7 +50,7 @@ SerpApi的Google Shopping Light API可以让你极高速度抓取Google Shopping
 | start  | 可选  | 参数定义返回结果开始的坐标，<br>设置这个参数可以跳过设置值数量的结果<br>(比如 默认值为0，则返回结果从第一页开始，10 是返回结果第二页开始，20 是返回结果从第三页开始，以此类推)。 |
 
 ## API 返回示例
-- GET 方法
+- GET
 ```text
 https://serpapi.com/search.json?engine=google_shopping_light&q=macbook
 ```
