@@ -2,7 +2,7 @@
 
 SerpApi的Google Shopping Light API可以让你极高速度抓取Google Shopping的结果。Google Shopping Light引擎仅保留最核心的数据，不包含常规Google Shopping页面中能获取的额外信息，相比标准的[Google Shopping API](https://serpapi.com/google-shopping-api)它能够提供更快的响应速度。
 
-该 API 可通过以下端点进行访问：/search?engine=google_shopping。
+该 API 可通过以下endpoint进行访问：https://serpapi.com//search?engine=google_shopping
 
 你可以通过发送 GET 请求查询：https://serpapi.com/search?engine=google_shopping&q=coffee 或者您可以前往[Playground](https://serpapi.com/playground?engine=google_shopping)体验实时、可交互的官方演示。
 
